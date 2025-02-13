@@ -1,0 +1,48 @@
+.info-left
+{
+    color: white;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: -300px;
+    background:linear-gradient(180deg,dodgerblue, skyblue);
+    border-radius:0 50px 50px 0;
+    height:100%;
+    animation-name: slide-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; /* 保持动画结束时的状态 */
+
+}
+
+@keyframes slide-in {
+    from {
+        left: -300px;
+    }
+    to {
+        left: 0;
+    }
+}
+
+.info-right
+{
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    right: -800px;
+    animation-name: slide-in1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes slide-in1 {
+    from {
+        right: -800px;
+    }
+    to {
+        right: 0;
+    }
+}
+
