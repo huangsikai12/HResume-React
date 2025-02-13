@@ -28,7 +28,7 @@ function InfoPage() {
         <div>
                 <Header pageTitle="个人简介"/>
                 <Layout style={{height:"calc(100vh - 50px)"}}>
-                    <Sider width="15%" style={{background:"none"}}>
+                    <Sider width="20%" style={{background:"none"}}>
                         <div className="info-left">
                             <Avatar size={100} icon={<UserOutlined spin/>}/>
                             <h3>{userData.name}</h3>
