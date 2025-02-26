@@ -71,7 +71,10 @@ function InfoPage() {
                                             {menu.menuTitle}
                                         </Divider>
                                         {infoData.type === "str" &&
-                                            <p>{infoData.detail}</p>
+                                            <p style= {{
+                                                fontSize:"16px",
+                                                lineHeight:"30px"
+                                            }}>{infoData.detail}</p>
                                         }
                                         {infoData.type === "arr" &&
                                             infoData.detail.map((detailData)=>{

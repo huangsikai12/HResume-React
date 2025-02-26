@@ -31,7 +31,7 @@ function ProjectShow(props) {
             <Layout>
                 <Header pageTitle="作品展示"/>
                 <Layout style={{height:"calc(100vh - 50px)"}}>
-                    <Sider width="13%">
+                    <Sider width="20%">
                         <div
 
                         >
