@@ -7,7 +7,6 @@ body
 .div-header
 {
 
-
     color: white;
     font-size: 30px;
     background: linear-gradient(90deg, #00A6ED, #7400B8);
@@ -19,8 +18,11 @@ body
 }
 .header-fix
 {
+    position: -webkit-sticky;
     position: fixed;
+    top: 0;
     width: 100%;
+    z-index: 100;
 }
 @keyframes gradient {
     0% { background-position: 0% 50%; }
