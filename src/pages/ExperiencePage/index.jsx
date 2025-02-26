@@ -37,7 +37,7 @@ function ExperiencePage() {
             />
             <Header pageTitle={pageTitle} fix/>
             <div className="parent-container" >
-                <div className="centered-div" >
+                <div className="centered-div"  style={{marginTop:"50px"}}>
                     <br/>
                     <Timeline
                         style={{width:"100%"}}

@@ -6,12 +6,13 @@
     height: 800px;
     background-color: rgba(248, 246, 242, 0.9);
     border-radius: 50px;
-    transform: translateY(-10%);
+    transform: translateX(-10%);
     flex-direction: column;
     border: palegoldenrod solid 1px;
 }
 
 .parent-container {
+
 
     display: flex;
     justify-content: center;
