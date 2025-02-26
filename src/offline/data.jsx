@@ -125,6 +125,7 @@ export const getMatchesData = () => [
         medal:"一等奖",
         type:"1"
     },
+
     {
         id: 2,
         children: "比赛2",
@@ -143,6 +144,46 @@ export const getMatchesData = () => [
     {
         id: 4,
         children: "比赛4",
+        label:"2022-22-22",
+        news:"http://www.baidu.com",
+        medal:"一等奖",
+        type:"1"
+    },
+    {
+        id: 1,
+        children: "比赛1",
+        label:"2022-22-22",
+        news:"http://www.baidu.com",
+        medal:"一等奖",
+        type:"1"
+    },
+    {
+        id: 1,
+        children: "比赛1",
+        label:"2022-22-22",
+        news:"http://www.baidu.com",
+        medal:"一等奖",
+        type:"1"
+    },
+    {
+        id: 1,
+        children: "比赛1",
+        label:"2022-22-22",
+        news:"http://www.baidu.com",
+        medal:"一等奖",
+        type:"1"
+    },
+    {
+        id: 1,
+        children: "比赛1",
+        label:"2022-22-22",
+        news:"http://www.baidu.com",
+        medal:"一等奖",
+        type:"1"
+    },
+    {
+        id: 1,
+        children: "比赛1",
         label:"2022-22-22",
         news:"http://www.baidu.com",
         medal:"一等奖",
